@@ -1,0 +1,1 @@
+document.querySelector('#year').textContent=new Date().getFullYear();function fillBrief(){location.hash='brief'};document.addEventListener('click',e=>{if(e.target.id==='gallery-main')window.open(e.target.src,'_blank','noopener')});
